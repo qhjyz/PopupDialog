@@ -8,6 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		24E9C390BE844B9A23A0C537 /* Pods_PopupDialog_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54FBE8B3088FFFE8659C6E87 /* Pods_PopupDialog_Tests.framework */; };
+		37073B112533D9770010BBBE /* PopupDialog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37073B082533D9760010BBBE /* PopupDialog.framework */; };
+		37073B182533D9770010BBBE /* PopupDialogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37073B172533D9770010BBBE /* PopupDialogTests.swift */; };
+		37073B1A2533D9770010BBBE /* PopupDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = 37073B0A2533D9760010BBBE /* PopupDialog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37073B1D2533D9770010BBBE /* PopupDialog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37073B082533D9760010BBBE /* PopupDialog.framework */; };
+		37073B1F2533D9770010BBBE /* PopupDialog.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 37073B082533D9760010BBBE /* PopupDialog.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		37073B3C2533D9C40010BBBE /* InteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37073B2B2533D9AF0010BBBE /* InteractiveTransition.swift */; };
+		37073B3D2533D9C40010BBBE /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37073B2C2533D9AF0010BBBE /* PresentationController.swift */; };
+		37073B3E2533D9C40010BBBE /* UIImageView+Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37073B2D2533D9AF0010BBBE /* UIImageView+Calculations.swift */; };
+		37073B3F2533D9C40010BBBE /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37073B2E2533D9AF0010BBBE /* UIView+Animations.swift */; };
+		37073B402533D9C40010BBBE /* PopupDialogDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37073B2F2533D9AF0010BBBE /* PopupDialogDefaultView.swift */; };
+		37073B412533D9C40010BBBE /* PopupDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37073B302533D9AF0010BBBE /* PopupDialog.swift */; };
+		37073B422533D9C40010BBBE /* PopupDialogOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37073B322533D9AF0010BBBE /* PopupDialogOverlayView.swift */; };
+		37073B432533D9C40010BBBE /* PopupDialogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37073B332533D9AF0010BBBE /* PopupDialogButton.swift */; };
+		37073B442533D9C40010BBBE /* UIViewController+Visibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37073B342533D9AF0010BBBE /* UIViewController+Visibility.swift */; };
+		37073B452533D9C40010BBBE /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37073B352533D9AF0010BBBE /* TransitionAnimator.swift */; };
+		37073B462533D9C40010BBBE /* PopupDialog+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37073B362533D9AF0010BBBE /* PopupDialog+Keyboard.swift */; };
+		37073B472533D9C40010BBBE /* PopupDialogDefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37073B372533D9AF0010BBBE /* PopupDialogDefaultViewController.swift */; };
+		37073B482533D9C40010BBBE /* TransitionAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37073B382533D9AF0010BBBE /* TransitionAnimations.swift */; };
+		37073B492533D9C40010BBBE /* PopupDialogDefaultButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37073B392533D9AF0010BBBE /* PopupDialogDefaultButtons.swift */; };
+		37073B4A2533D9C40010BBBE /* PresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37073B3A2533D9AF0010BBBE /* PresentationManager.swift */; };
+		37073B4B2533D9C40010BBBE /* PopupDialogContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37073B3B2533D9AF0010BBBE /* PopupDialogContainerView.swift */; };
+		37073B7C2533F58E0010BBBE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37073B7B2533F58E0010BBBE /* UIKit.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -32,6 +54,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		37073B122533D9770010BBBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37073B072533D9760010BBBE;
+			remoteInfo = PopupDialog;
+		};
+		37073B142533D9770010BBBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
+			remoteInfo = PopupDialog_Example;
+		};
+		37073B1B2533D9770010BBBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37073B072533D9760010BBBE;
+			remoteInfo = PopupDialog;
+		};
 		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
@@ -48,10 +91,47 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		37073B1E2533D9770010BBBE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				37073B1F2533D9770010BBBE /* PopupDialog.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		01A15A32B46CCE17ED5729B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		029724732D062654C9C0B8BE /* Pods-PopupDialog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopupDialog_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopupDialog_Tests/Pods-PopupDialog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0C9093F7873ABC40A980FF94 /* Pods_PopupDialog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopupDialog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37073B082533D9760010BBBE /* PopupDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PopupDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37073B0A2533D9760010BBBE /* PopupDialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopupDialog.h; sourceTree = "<group>"; };
+		37073B0B2533D9760010BBBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37073B102533D9770010BBBE /* PopupDialogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopupDialogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37073B172533D9770010BBBE /* PopupDialogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupDialogTests.swift; sourceTree = "<group>"; };
+		37073B192533D9770010BBBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37073B2B2533D9AF0010BBBE /* InteractiveTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveTransition.swift; sourceTree = "<group>"; };
+		37073B2C2533D9AF0010BBBE /* PresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationController.swift; sourceTree = "<group>"; };
+		37073B2D2533D9AF0010BBBE /* UIImageView+Calculations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Calculations.swift"; sourceTree = "<group>"; };
+		37073B2E2533D9AF0010BBBE /* UIView+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Animations.swift"; sourceTree = "<group>"; };
+		37073B2F2533D9AF0010BBBE /* PopupDialogDefaultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupDialogDefaultView.swift; sourceTree = "<group>"; };
+		37073B302533D9AF0010BBBE /* PopupDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupDialog.swift; sourceTree = "<group>"; };
+		37073B322533D9AF0010BBBE /* PopupDialogOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupDialogOverlayView.swift; sourceTree = "<group>"; };
+		37073B332533D9AF0010BBBE /* PopupDialogButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupDialogButton.swift; sourceTree = "<group>"; };
+		37073B342533D9AF0010BBBE /* UIViewController+Visibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Visibility.swift"; sourceTree = "<group>"; };
+		37073B352533D9AF0010BBBE /* TransitionAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionAnimator.swift; sourceTree = "<group>"; };
+		37073B362533D9AF0010BBBE /* PopupDialog+Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PopupDialog+Keyboard.swift"; sourceTree = "<group>"; };
+		37073B372533D9AF0010BBBE /* PopupDialogDefaultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupDialogDefaultViewController.swift; sourceTree = "<group>"; };
+		37073B382533D9AF0010BBBE /* TransitionAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionAnimations.swift; sourceTree = "<group>"; };
+		37073B392533D9AF0010BBBE /* PopupDialogDefaultButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupDialogDefaultButtons.swift; sourceTree = "<group>"; };
+		37073B3A2533D9AF0010BBBE /* PresentationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationManager.swift; sourceTree = "<group>"; };
+		37073B3B2533D9AF0010BBBE /* PopupDialogContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupDialogContainerView.swift; sourceTree = "<group>"; };
+		37073B7B2533F58E0010BBBE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/iOSSupport/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		54FBE8B3088FFFE8659C6E87 /* Pods_PopupDialog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopupDialog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* PopupDialog_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopupDialog_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -81,11 +161,28 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		37073B052533D9760010BBBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37073B7C2533F58E0010BBBE /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37073B0D2533D9770010BBBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37073B112533D9770010BBBE /* PopupDialog.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCD1AFB9204008FA782 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8D7237723E8D5A478A0F9D04 /* Pods_PopupDialog_Example.framework in Frameworks */,
+				37073B1D2533D9770010BBBE /* PopupDialog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +208,7 @@
 		11471FDFE56E95285230212A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				37073B7B2533F58E0010BBBE /* UIKit.framework */,
 				C75C0D6B1E2D81C700CFC9F3 /* FBSnapshotTestCase.framework */,
 				0C9093F7873ABC40A980FF94 /* Pods_PopupDialog_Example.framework */,
 				54FBE8B3088FFFE8659C6E87 /* Pods_PopupDialog_Tests.framework */,
@@ -118,13 +216,58 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		37073B092533D9760010BBBE /* PopupDialog */ = {
+			isa = PBXGroup;
+			children = (
+				37073B0A2533D9760010BBBE /* PopupDialog.h */,
+				37073B0B2533D9760010BBBE /* Info.plist */,
+			);
+			path = PopupDialog;
+			sourceTree = "<group>";
+		};
+		37073B162533D9770010BBBE /* PopupDialogTests */ = {
+			isa = PBXGroup;
+			children = (
+				37073B172533D9770010BBBE /* PopupDialogTests.swift */,
+				37073B192533D9770010BBBE /* Info.plist */,
+			);
+			path = PopupDialogTests;
+			sourceTree = "<group>";
+		};
+		37073B2A2533D9AF0010BBBE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				37073B2B2533D9AF0010BBBE /* InteractiveTransition.swift */,
+				37073B2C2533D9AF0010BBBE /* PresentationController.swift */,
+				37073B2D2533D9AF0010BBBE /* UIImageView+Calculations.swift */,
+				37073B2E2533D9AF0010BBBE /* UIView+Animations.swift */,
+				37073B2F2533D9AF0010BBBE /* PopupDialogDefaultView.swift */,
+				37073B302533D9AF0010BBBE /* PopupDialog.swift */,
+				37073B322533D9AF0010BBBE /* PopupDialogOverlayView.swift */,
+				37073B332533D9AF0010BBBE /* PopupDialogButton.swift */,
+				37073B342533D9AF0010BBBE /* UIViewController+Visibility.swift */,
+				37073B352533D9AF0010BBBE /* TransitionAnimator.swift */,
+				37073B362533D9AF0010BBBE /* PopupDialog+Keyboard.swift */,
+				37073B372533D9AF0010BBBE /* PopupDialogDefaultViewController.swift */,
+				37073B382533D9AF0010BBBE /* TransitionAnimations.swift */,
+				37073B392533D9AF0010BBBE /* PopupDialogDefaultButtons.swift */,
+				37073B3A2533D9AF0010BBBE /* PresentationManager.swift */,
+				37073B3B2533D9AF0010BBBE /* PopupDialogContainerView.swift */,
+			);
+			name = Classes;
+			path = ../PopupDialog/Classes;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				37073B2A2533D9AF0010BBBE /* Classes */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for PopupDialog */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				C7EA1E091E2A181A009D3044 /* UITests */,
+				37073B092533D9760010BBBE /* PopupDialog */,
+				37073B162533D9770010BBBE /* PopupDialogTests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				11471FDFE56E95285230212A /* Frameworks */,
 				A59B780F4531F454F618E4E6 /* Pods */,
@@ -137,6 +280,8 @@
 				607FACD01AFB9204008FA782 /* PopupDialog_Example.app */,
 				607FACE51AFB9204008FA782 /* PopupDialog_Tests.xctest */,
 				C7EA1E081E2A181A009D3044 /* PopupDialog_UITests.xctest */,
+				37073B082533D9760010BBBE /* PopupDialog.framework */,
+				37073B102533D9770010BBBE /* PopupDialogTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -220,7 +365,55 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		37073B032533D9760010BBBE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37073B1A2533D9770010BBBE /* PopupDialog.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		37073B072533D9760010BBBE /* PopupDialog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37073B242533D9770010BBBE /* Build configuration list for PBXNativeTarget "PopupDialog" */;
+			buildPhases = (
+				37073B032533D9760010BBBE /* Headers */,
+				37073B042533D9760010BBBE /* Sources */,
+				37073B052533D9760010BBBE /* Frameworks */,
+				37073B062533D9760010BBBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopupDialog;
+			productName = PopupDialog;
+			productReference = 37073B082533D9760010BBBE /* PopupDialog.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		37073B0F2533D9770010BBBE /* PopupDialogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37073B252533D9770010BBBE /* Build configuration list for PBXNativeTarget "PopupDialogTests" */;
+			buildPhases = (
+				37073B0C2533D9770010BBBE /* Sources */,
+				37073B0D2533D9770010BBBE /* Frameworks */,
+				37073B0E2533D9770010BBBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37073B132533D9770010BBBE /* PBXTargetDependency */,
+				37073B152533D9770010BBBE /* PBXTargetDependency */,
+			);
+			name = PopupDialogTests;
+			productName = PopupDialogTests;
+			productReference = 37073B102533D9770010BBBE /* PopupDialogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		607FACCF1AFB9204008FA782 /* PopupDialog_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "PopupDialog_Example" */;
@@ -231,10 +424,12 @@
 				607FACCE1AFB9204008FA782 /* Resources */,
 				EEAA888D1F7DA68800B25D56 /* SwiftLint */,
 				08C098F1F7533C3EF08E39D9 /* [CP] Embed Pods Frameworks */,
+				37073B1E2533D9770010BBBE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				37073B1C2533D9770010BBBE /* PBXTargetDependency */,
 			);
 			name = PopupDialog_Example;
 			productName = PopupDialog;
@@ -285,10 +480,20 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
+				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
+					37073B072533D9760010BBBE = {
+						CreatedOnToolsVersion = 12.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					37073B0F2533D9770010BBBE = {
+						CreatedOnToolsVersion = 12.0.1;
+						DevelopmentTeam = 7Q82Y7SG79;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 607FACCF1AFB9204008FA782;
+					};
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 1020;
@@ -323,11 +528,27 @@
 				607FACCF1AFB9204008FA782 /* PopupDialog_Example */,
 				607FACE41AFB9204008FA782 /* PopupDialog_Tests */,
 				C7EA1E071E2A181A009D3044 /* PopupDialog_UITests */,
+				37073B072533D9760010BBBE /* PopupDialog */,
+				37073B0F2533D9770010BBBE /* PopupDialogTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		37073B062533D9760010BBBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37073B0E2533D9770010BBBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCE1AFB9204008FA782 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -447,11 +668,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"";
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		37073B042533D9760010BBBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37073B3C2533D9C40010BBBE /* InteractiveTransition.swift in Sources */,
+				37073B3D2533D9C40010BBBE /* PresentationController.swift in Sources */,
+				37073B3E2533D9C40010BBBE /* UIImageView+Calculations.swift in Sources */,
+				37073B3F2533D9C40010BBBE /* UIView+Animations.swift in Sources */,
+				37073B402533D9C40010BBBE /* PopupDialogDefaultView.swift in Sources */,
+				37073B412533D9C40010BBBE /* PopupDialog.swift in Sources */,
+				37073B422533D9C40010BBBE /* PopupDialogOverlayView.swift in Sources */,
+				37073B432533D9C40010BBBE /* PopupDialogButton.swift in Sources */,
+				37073B442533D9C40010BBBE /* UIViewController+Visibility.swift in Sources */,
+				37073B452533D9C40010BBBE /* TransitionAnimator.swift in Sources */,
+				37073B462533D9C40010BBBE /* PopupDialog+Keyboard.swift in Sources */,
+				37073B472533D9C40010BBBE /* PopupDialogDefaultViewController.swift in Sources */,
+				37073B482533D9C40010BBBE /* TransitionAnimations.swift in Sources */,
+				37073B492533D9C40010BBBE /* PopupDialogDefaultButtons.swift in Sources */,
+				37073B4A2533D9C40010BBBE /* PresentationManager.swift in Sources */,
+				37073B4B2533D9C40010BBBE /* PopupDialogContainerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37073B0C2533D9770010BBBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37073B182533D9770010BBBE /* PopupDialogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCC1AFB9204008FA782 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -488,6 +740,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		37073B132533D9770010BBBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37073B072533D9760010BBBE /* PopupDialog */;
+			targetProxy = 37073B122533D9770010BBBE /* PBXContainerItemProxy */;
+		};
+		37073B152533D9770010BBBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 607FACCF1AFB9204008FA782 /* PopupDialog_Example */;
+			targetProxy = 37073B142533D9770010BBBE /* PBXContainerItemProxy */;
+		};
+		37073B1C2533D9770010BBBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37073B072533D9760010BBBE /* PopupDialog */;
+			targetProxy = 37073B1B2533D9770010BBBE /* PBXContainerItemProxy */;
+		};
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 607FACCF1AFB9204008FA782 /* PopupDialog_Example */;
@@ -520,6 +787,132 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		37073B202533D9770010BBBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = PopupDialog/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = popupdialog.popupdialog.PopupDialog;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		37073B212533D9770010BBBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = PopupDialog/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = popupdialog.popupdialog.PopupDialog;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		37073B222533D9770010BBBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 7Q82Y7SG79;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = PopupDialogTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = popupdialog.popupdialog.PopupDialogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopupDialog_Example.app/PopupDialog_Example";
+			};
+			name = Debug;
+		};
+		37073B232533D9770010BBBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Q82Y7SG79;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = PopupDialogTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = popupdialog.popupdialog.PopupDialogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopupDialog_Example.app/PopupDialog_Example";
+			};
+			name = Release;
+		};
 		607FACED1AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -754,6 +1147,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		37073B242533D9770010BBBE /* Build configuration list for PBXNativeTarget "PopupDialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37073B202533D9770010BBBE /* Debug */,
+				37073B212533D9770010BBBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37073B252533D9770010BBBE /* Build configuration list for PBXNativeTarget "PopupDialogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37073B222533D9770010BBBE /* Debug */,
+				37073B232533D9770010BBBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "PopupDialog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
